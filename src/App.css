@@ -36,3 +36,110 @@
     transform: rotate(360deg);
   }
 }
+.connectbutton{
+  background: #00000010;
+  box-shadow: 0px 1px 10px #ffffff;
+  color: #ffffff;
+  border-radius: 14px;
+  padding: 5px 12px;
+  font-size: large;
+  font-weight: 200;
+}
+.navbarfont{
+  font-family: "SF Pro Display";
+  font-weight: 400;
+}
+.button-style {
+  width: 100px; /* Adjust the width value as needed */
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Adjust the height value as needed */
+}
+.nftminter {
+  background: radial-gradient(circle at 50% 50%, #b40be8, #cd21f4, #f000d8, #8e108e, #760280);
+  font-family: "SF Pro Display";
+  font-weight: 300;
+  color: white;
+  box-shadow: 0 0 1px 1px #3a1c41;
+  -webkit-border-radius: 20px !important;
+  -moz-border-radius: 20px !important;
+  border-radius: 20px !important;
+  -webkit-border: 20px !important;
+  -moz-border: 20px !important;
+  border: 20px !important;
+}
+.container-style {
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  justify-items: stretch;
+  align-items: stretch
+}
+.nftstaker{
+  background: radial-gradient(circle at 50% 50%, #b40be8, #cd21f4, #f000d8, #8e108e, #760280);
+  font-family: "SF Pro Display";
+  font-weight: 300;
+  color: white;
+  box-shadow: 0 0 1px 1px #0b000b;
+  -webkit-border-radius: 20px !important;
+  -moz-border-radius: 20px !important;
+  border-radius: 20px !important;
+  -webkit-border: 20px !important;
+  -moz-border: 20px !important;
+  border: 20px !important;
+}
+.stakingrewards {
+  font-family: "SF Pro Display";
+  font-weight: 300;
+  box-shadow: 1px 1px 15px #ffffff;
+  background: radial-gradient(circle at 50% 50%, #6c288b, #7a4085, #933b9b00, #a12a9f, #801b70);
+}
+
+.modal-style1 {
+background: radial-gradient(circle at 50% 50%, #090f11, #0c1519, #101e2b, #0f223c, #0e2144);
+font-family: "SF Pro Display";
+font-weight: 300;
+color: white;
+box-shadow: 0 0 1px 1px #17b2ff;
+-webkit-border-radius: 20px !important;
+-moz-border-radius: 20px !important;
+border-radius: 20px !important;
+-webkit-border: 20px !important;
+-moz-border: 20px !important;
+border: 20px !important;
+}
+@keyframes glow2 {
+  from {
+    box-shadow: 0 0 4px -1px #f4dc76;
+  }
+  to {
+    box-shadow: 0 0 10px 7px #ffb300;
+  }
+}
+
+.stakegoldeffect {
+    font-family: "SF Pro Display";
+    font-weight: 300;
+    animation: glow2 3s infinite alternate;
+    background: linear-gradient(
+      to bottom,
+      rgb(1, 53, 130),
+      rgba(255, 0, 0, 0)
+    )
+}
+.errorsearch{
+  background: black;
+}
+.nftapp{
+  
+  background: radial-gradient(circle at 50% 50%, #9a5eac, #9050a3, #7a358f, #691f7a, #571771);
+}
+.nft-card{
+  background: radial-gradient(circle at 50% 50%, #9a5eac, #9050a3, #7a358f, #691f7a, #571771);
+  font-family: "SF Pro Display";
+  font-weight: 300;
+  color: white;
+  box-shadow: 1px 1px 15px #000000;
+}
